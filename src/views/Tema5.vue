@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
       .titulo-principal__numero.colr_1
-        span 2
-      h1 Procesamiento de datos
+        span 5
+      h1 Solicitudes
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),

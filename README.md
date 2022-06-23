@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **CF4 - Comercio de productos mayoristas**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF5_631104_COMERCIO_PRODUCTOS_MAYORISTAS/](https://ecored-sena.github.io/CF5_631104_COMERCIO_PRODUCTOS_MAYORISTAS/)
 
 #
 
