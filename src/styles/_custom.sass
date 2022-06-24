@@ -92,3 +92,113 @@
   &_1
     span
       color: #12263F !important
+  &_2
+    color: #F27B58 !important
+  &_3
+    color: black !important
+  &_4
+    color: white 
+.bgr
+  background-color: #FFF0A6
+  &_1
+    background-color: #00E7BF
+    margin-top: 30px
+  &_2
+    background-color: #DBFFFA
+    height: 232px
+    @media screen and (max-width: 992px)
+      height: 279px
+    @media screen and (max-width: 420px)
+      height: auto
+  &_3
+    background-color: #FFD400
+    margin-top: 30px
+  &_4
+    background-color: #FFF4BF
+  &_5
+    background-color: #4A2EFC
+    margin-top: 30px
+  &_6
+    background-color: #B8ADFF
+    height: 232px
+    @media screen and (max-width: 992px)
+      height: 279px
+    @media screen and (max-width: 420px)
+      height: auto
+  &_7
+    background-color: #EAE6FF
+    &::before
+      background-color: #4A2EFC
+  &_8
+    background-color: #BEFFF4
+    &::before
+      background-color: #00E7BF
+  &_9
+    .tarjeta--azul.acordion__activo
+      background-color: #FFF9DE 
+    .tarjeta--azul
+      background-color: #F3F3F3
+  &_10
+    background-color: #D3F9F2
+  &_11
+    background-color: #DBFFFA
+  &_12
+    background-color: #FFF4BF
+    height: 246px
+    @media screen and (max-width: 420px)
+      height: auto
+  &_13
+    background-color: #F6F6F6
+.bg_grad-01
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 31px;
+    left: -3%;
+    width: 33%;
+    height: 19%;
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+//POSICION EN PANTALLA//
+.pst
+  position: absolute
+  top: -18px
+  right: -53px
+  width: 87px
+  @media screen and (max-width: 992px)
+    top: -5px
+  @media screen and (max-width: 420px)
+    right: -50px
+  &_1
+    position: absolute
+    top: -40px  
+    left: 39%
+    width: 85px
+  &_2
+    width: 80%
+    margin-top: 24px
+    margin-left: 50px
+//ETIQUETAS//
+.etiqueta
+  color: $color-sistema-texto
+  &_1
+    color: $color-sistema-texto
+    background-color: #00E7BF
+    padding: 2px 6px 5px;
+  &_2
+    color: $color-sistema-texto
+    background-color: #FFD400
+    padding: 2px 6px 5px;
+    
