@@ -97,7 +97,13 @@
   &_3
     color: black !important
   &_4
-    color: white 
+    color: white
+  &_5
+    .pasos-a__circle 
+      div
+        color: $color-sistema-texto !important
+    .text-end
+      text-align: left !important 
 .bgr
   background-color: #FFF0A6
   &_1
@@ -149,6 +155,21 @@
       height: auto
   &_13
     background-color: #F6F6F6
+  &_15
+    background-color: #FFF4BF
+    .slyder-a__btn--atrs
+      background-color: #4A2EFC
+      background-image: url("../assets/componentes/arrow1.svg") 
+    .slyder-a__btn--sigt
+      background-color: #4A2EFC
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: #4A2EFC !important
+      border-color: #4A2EFC 
+    .slyder-a__bullets__item
+      background-color: #C0B6FE
+  &_16
+    background-color: #BDB6EA
 .bg_grad-01
   position: relative
   div
@@ -162,6 +183,50 @@
     width: 33%;
     height: 19%;
     background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+.bg_grad-02
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    right: 0
+    width: 33%
+    height: 36%
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: 74%
+      right: 0
+      width: 48%
+      height: 31%
+.bg_grad-03
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -19px
+    left: -3%
+    width: 29%
+    height: 21%
+    background: #D3F9F2
     background-repeat: no-repeat
     background-size: contain
     @media screen and (max-width: 992px)
@@ -201,4 +266,27 @@
     color: $color-sistema-texto
     background-color: #FFD400
     padding: 2px 6px 5px;
+//CLASES SOBREESCRITAS//
+.horizontal-scroll
+  align-items: stretch !important
+//LINEA DE TIEMPO D//
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #D1CAFE !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #D1CAFE
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
     
