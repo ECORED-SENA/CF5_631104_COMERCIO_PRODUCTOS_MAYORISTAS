@@ -186,7 +186,15 @@
     background-color: #EAE6FF
     &::before
       background-color: #4A2EFC
- 
+  &_22
+    background-color: #FFF4BF
+    height: 112px
+    @media screen and (max-width: 992px)
+      height: 134px
+    @media screen and (max-width: 420px)
+      height: auto
+  &_23
+    background-color: #E8E8E8
 .bg_grad-01
   position: relative
   div
@@ -310,6 +318,28 @@
     width: 33%;
     height: 19%;
     background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+.bg_grad-07
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 61px
+    left: -3%
+    width: 29%
+    height: 21%
+    background: #D3F9F2
     background-repeat: no-repeat
     background-size: contain
     @media screen and (max-width: 992px)

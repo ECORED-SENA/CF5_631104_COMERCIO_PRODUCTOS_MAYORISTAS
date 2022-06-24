@@ -162,7 +162,7 @@
 
     p.mb-5 Otro de los elementos clave que se debe tener en cuenta son las técnicas de recolección de información que se pueden usar en un proceso de investigación, las cuales son analizadas en el siguiente recurso:
 
-    AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_19
+    AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Observación").p-4
         .col-md-8.mb-4.mb-md-0.align-items-center.p-4
           p La simple observación es útil y factible cuando se trata de conocer hechos o situaciones que de alguna manera tienen cierto carácter público, o que al menos no pertenecen estrictamente a la esfera del comportamiento privado de los individuos. 
