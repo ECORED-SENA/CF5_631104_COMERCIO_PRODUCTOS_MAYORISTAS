@@ -102,7 +102,7 @@
                 img(src='@/assets/curso/tema3/t3-7.svg', alt='Texto que describa la imagen')
             .col-12.col-md-8
               p Como parte de su proceso de aprendizaje autónomo le invito a revisar la ley que se mencionó con anterioridad con el fin de afianzar su conocimiento en el tema, la cual se encuentra a continuación:
-              a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('downloads/ley1581_2012.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/componentes/icono-pdf.svg")
                 .anexo__texto
