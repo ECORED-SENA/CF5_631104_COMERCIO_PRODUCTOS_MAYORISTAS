@@ -229,7 +229,7 @@
 
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_19
+        AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Índice").p-4
             .col-md-6.mb-4.mb-md-0.align-items-center.p-4
               p.mb-0 (a) Índice.
