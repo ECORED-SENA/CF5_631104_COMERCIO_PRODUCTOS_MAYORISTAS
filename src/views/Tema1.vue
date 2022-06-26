@@ -106,7 +106,7 @@
 
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bgr_4.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-5.png')})`}"
           )

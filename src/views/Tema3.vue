@@ -193,7 +193,7 @@
 
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        .cajon.bgr_18.p-5
+        .bgr_30.p-5
           .row  
             .col-12.col-md-4.mb-3.mb-md-0
               figure

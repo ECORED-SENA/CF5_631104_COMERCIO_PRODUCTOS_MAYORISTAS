@@ -208,6 +208,28 @@
       border-color: #009077 
     .slyder-a__bullets__item
       background-color: #00E0B9
+  &_25
+    background-color: #FFE14C
+    border-radius: 10px
+  &_26
+    background-color: #F1FAFE
+  &_27
+    background-color: #FCDED5
+    height: 168px
+    @media screen and (max-width: 992px)
+      height: 214px
+    @media screen and (max-width: 420px)
+      height: auto
+  &_28
+    background-color: #FFF4BF
+    &::before
+      background-color: #FFD400
+  &_29
+    background-color: #A496FD
+  &_30
+    background-color: #BEFFF4
+    border-radius: 10px
+  
 .bg_grad-01
   position: relative
   div
@@ -384,6 +406,95 @@
       left: -5px
       width: 48%
       height: 16%
+.bg_grad-09
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0;
+    left: -3%;
+    width: 33%;
+    height: 27%;
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+.bg_grad-10
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -3%
+    width: 29%
+    height: 21%
+    background: #D3F9F2
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+.bg_grad-11
+  position: relative
+  .linea-tiempo-b__row, .linea-tiempo-b__icon
+    position: relative 
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: #FAFAFA
+    background-repeat: no-repeat
+    background-size: contain
+    border-radius: 10px
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
+.bg_grad-12
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -15px;
+    left: -3%;
+    width: 33%;
+    height: 27%;
+    background: #FFF4BF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: -19px
+      left: -5px
+      width: 48%
+      height: 16%
 //POSICION EN PANTALLA//
 .pst
   position: absolute
@@ -403,6 +514,11 @@
     width: 80%
     margin-top: 24px
     margin-left: 50px
+  &_3
+    transition: transform .3s ease-in-out
+    &:hover
+      transform: scale(1.1)
+      transform: translateY(-30px)
 //ETIQUETAS//
 .etiqueta
   color: $color-sistema-texto
@@ -414,6 +530,30 @@
     color: $color-sistema-texto
     background-color: #FFD400
     padding: 2px 6px 5px;
+  &_3
+    color: $color-sistema-texto
+    background-color: #C5EAFB
+    padding: 2px 6px 5px;
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+  &_4
+    color: $color-sistema-texto
+    background-color: #F27B58
+    padding: 2px 6px 5px;
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+//MODIFICACION DE COLOR Y OTROS//
+.modif
+  .tabs-a__tab
+    background-color: #F6F6F6
+    &:hover
+      color: white !important
+  .tabs-a__tab__selected
+    color: #12263F !important
+  &_1
+    background-color: #FFFBEF
+    color: #12263F;
+    border: solid 4px #FFF4CC
 //CLASES SOBREESCRITAS//
 .horizontal-scroll
   align-items: stretch !important
@@ -437,4 +577,6 @@
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-color: #F6F6F6
-    
+//LINEA DE TIEMPO B//
+.linea-tiempo-b__line:after
+  border-left: 4px dotted #00E7BF
