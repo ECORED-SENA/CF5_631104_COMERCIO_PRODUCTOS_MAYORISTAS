@@ -17,10 +17,10 @@
     p.mb-5 Cuando una empresa desea ir más allá, permanecer en el mercado, estar entre los referentes de calidad y confiabilidad en cuanto a los bienes y/o servicios ofertados, debe estar plenamente segura de que es una inversión estudiar su cliente y aún con mayor razón si se habla de empresas de comercio mayorista, dado que está en su generalidad, sus clientes pertenecen a empresas detallistas, intermediarios entre el bien y su cliente final.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-2.mb-3.mb-md-0
-        figure
-          img(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8.d-flex.align-items-center
+      .col-12.col-md-2.mb-3.mb-md-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img180(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
+      .col-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
         p Por otro lado, no solo se habla de las necesidades del cliente final, sino también de los intermediarios y las garantías van más allá de un producto o servicio defectuoso o de baja calidad, por lo que se hace necesario entender dos mundos distintos, uno camino a la comercialización y otro con destino al usuario final, por lo que estas empresas de comercialización de productos mayoristas deben absorber la información del medio y tendencias, a la hora de utilizar el producto para su propósito final, si este fue eficiente, si resolvió la necesidad adecuadamente, si es de alta calidad y resistente al entorno en el cual estará sometido, todos estos factores solo se resolverán a través del servicio posventa.
     
     .row.justify-content-center(data-aos="flip-up")
@@ -59,18 +59,18 @@
     p.mb-5 Estos dos enfoques se logran con una muy buena comunicación prolongándola a través del tiempo con ciertas técnicas y estrategias que permitirán el éxito de la empresa.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.bg_grad-10.mb-3.mb-md-0.d-flex.align-items-center
+      .col-12.col-md-6.bg_grad-10.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         div
           p El valor de la posventa, 	en ocasiones, es desestimado por empresas detallistas que utilizan el valor de las marcas que ofrecen como respaldo y garantías de que son empresas con credibilidad. Por otro lado, la posventa es de vital importancia y juega uno de los papeles más importantes de las empresas mayoristas, pues aquí es donde se marca una ruta, se forma y toma un norte comercial, además de conocer perfectamente su sector, si necesita realizar ajustes, modificaciones y correcciones de calidad, todo con el fin de general fidelización y estabilidad en el mercado.
           p.mb-5 Actualmente, aunque el servicio posventa es de vital importancia, dando como prioridad la obtención de clientes leales a la marca, las empresas están invirtiendo sus esfuerzos en la consecución de nuevos clientes, y tanto la fidelización como la consecución de las estas nuevas entradas, deben ser realizadas a la par, con la misma fuerza e intensidad para no descuidar el rumbo de la empresa. 
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-6.png', alt='Texto que describa la imagen')
     
     p.mb-5 Por lo que los constantes cambios acelerados en que los factores de tendencia en cada sector afectan a las personas y su conocimiento adecuado y anticipado de las empresas hacen que conecten con sus clientes, tanto los clientes reales como los potenciales, esto con el fin de alcanzarlos.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .cajon.bgr_28.p-4
           p.mb-0 Estos cambios acelerados hoy en día se pueden percibir dado a la transformación digital e influyente de los medios de comunicación, redes sociales, <em>influencers</em> y tendencias en moda, que están cambiando constantemente los patrones de consumo, lo que ha llevado a que por medio del servicio posventa no solo se logre esa conexión, sino la cercanía para poder predecir con anticipación esas tendencias cambiantes y ser asertivos dentro del sector de mercado al que pertenece cada empresa.
     
@@ -178,9 +178,9 @@
       .h2 6.3 Etapas
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center
+      .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         p El proceso y procedimiento del servicio posventa  es la manera como se puede medir la empresa y los productos de acuerdo con el nivel de satisfacción de los clientes y los ingresos y/o pérdidas que generen los productos cuando se presentan eventualidades fuera de las esperadas, la misma tiene que ver con la forma sobre cómo se resuelve un problema con un producto que cuenta con una garantía de cambio, entendiéndose, desde la parte comercial, como “todo debe ser medido para su aprobación o rendimiento”. 
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/t6-21.png', alt='Texto que describa la imagen')
     
@@ -188,45 +188,45 @@
     
     PasosA.color-acento-botones.mb-5.colr_5(tipo="l")
       .row
-        .col-md-8.d-flex.align-items-center
+        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
           div
             h3 <em>Lifetime Value</em> 
             p El <em>Lifetime Value</em> (LTV) indica la rentabilidad que genera un cliente en la empresa a través del tiempo en que esta relación permanezca, es por ello que se observa que las empresas utilizan estrategias como: acumulación de puntos, vistos en almacenes, como Éxito o Jumbo, para medir quiénes son los clientes frecuentes y premiarlos por ello.
             p.mb-0 De esa forma, se logra predecir las ganancias obtenidas con esa relación a lo largo del tiempo. Un alto valor de LTV indicará la empresa el alto nivel de fidelización con la marca y los productos o servicios con los clientes.
-        .col-md-4.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-22.png', alt='Texto que describa la imagen')
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema6/t6-23.png', alt='Texto que describa la imagen')
-        .col-md-8.d-flex.align-items-center
+        .col-md-8.d-flex.align-items-center(data-aos="fade-left")
           div
             h3 <em>Customer Profitability Score</em>
             p Esta métrica permite analizar y ver cuánto gasta la empresa en sus clientes frecuentes versus las ganancias recibidas por ellos a través del tiempo, también se puede conocer la rentabilidad que  genera un cliente en un tiempo determinado. 
             p.mb-0 Por lo que se contrastan las ganancias que genera ese cliente con los gastos que asumes para retenerlo. Esto es necesario conocerlo para saber con cuáles clientes se debe invertir más dinero  y en cuáles menos.
       .row
-        .col-md-8.d-flex.align-items-center
+        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
             div
               h3 <em>Net Promoter Score (NPS)</em> 
               p.mb-0 Este refleja el nivel de satisfacción de los clientes frente a los productos o servicios ofertados, son esas encuestas elaboradas de 1 a 10, para entender los patrones de consumo de los clientes activos.
-        .col-md-4.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-24.png', alt='Texto que describa la imagen')
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema6/t6-25.png', alt='Texto que describa la imagen')
-        .col-md-8.d-flex.align-items-center
+        .col-md-8.d-flex.align-items-center(data-aos="fade-left")
           div
             h3 Tasa de abandono 
             p.mb-0 Mide cuántos clientes están dejando de comprar los productos y/o servicios, ya sea en un lugar físico o en internet y cuántos dejan sus carritos de compra sin cerrar la venta.
       .row
-        .col-md-8.d-flex.align-items-center
+        .col-md-8.d-flex.align-items-center(data-aos="fade-right")
             div
               h3 Conclusión
               p.mb-0 Con esta información se pueden realizar ciertos ajustes en las estrategias, además de corregir el curso de la empresa en pro de la cercanía con el cliente final.
-        .col-md-4.mb-4.mb-md-0
+        .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/tema6/t6-26.png', alt='Texto que describa la imagen')
 
@@ -259,12 +259,12 @@
     p.mb-5 En la construcción de estas garantías se requiere un análisis financiero, de viabilidad y el análisis de las políticas a las cuales la empresa está obligada a cumplir de acuerdo con las leyes de protección al consumidor, entre otros factores internos como: los materiales de construcción para determinar el alcance y la resistencia de sus productos. Es por ello que se ven en internet las pruebas de resistencia, como por ejemplo: las marcas de vehículos que deben pasar sus automóviles por estrictas pruebas de choque, seguridad y confiabilidad en cuanto a carrocería, frenos y asistencias tecnológicas en sus componentes como en los frenos y bolsas de aire.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10 
+      .col-12.col-md-10
         .cajon.bgr_7.px-5.py-4
           p.mb-0 Es necesario entender que sin las garantías los clientes no confían en las marcas y sin normas diseñadas adecuadamente, limitarían su alcance y podrían generar pérdidas sustanciales para las empresas.
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .bgr_30.p-5
           .row  
             .col-12.col-md-4.mb-3.mb-md-0

@@ -46,7 +46,7 @@
     p.mb-5 Las principales formas que se han propuesto para clasificar las fuentes de información en investigación se indican a continuación:
 
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         .row  
           .col-12
             .bgr_1.pt-5.pb-3.position-relative
@@ -63,7 +63,7 @@
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
                   | Papel vs. electrónic0.
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
         .row  
           .col-12
             .bgr_3.pt-5.pb-3.position-relative
@@ -83,7 +83,7 @@
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
                   | Confidencial/secreto.
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-up")
         .row  
           .col-12
             .bgr_5.pt-5.pb-3.position-relative
@@ -115,7 +115,7 @@
 
     p.mb-5 Por lo anterior, el ritmo de crecimiento de una disciplina depende en gran medida de la cantidad de literatura que se produce en forma de fuentes primarias que dan cuenta del desarrollo en el campo en cuestión, es por eso que esta se constituye en el primer acceso a información disciplinar en investigación para describir el material de origen más cercano a la persona el periodo o la idea que se estudia.
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10 
         .cajon.bgr_7.px-5.py-4
           p.mb-0 Una fuente primaria (también llamada fuente original) es un artefacto, un documento, una grabación u otra fuente de información que fue creada en la época que se estudia, si fue elaborada por una fuente humana, se trata de una fuente con conocimiento personal directo de los acontecimientos que se describen. 
@@ -219,7 +219,7 @@
     p Las fuentes de información secundarias son aquellas que se recopilan a partir de las primarias o que hacen referencia a ellas. Por lo anterior, la información original ha sido modificada casualmente, seleccionada o reorganizada para servir a un propósito definido para un grupo de usuarios. Este tipo de fuentes contienen información dispuesta y organizada sobre la base de algún plan definido y contienen conocimientos organizados y reempaquetados más que conocimientos nuevos.  
     p.mb-5 La información contenida en las fuentes primarias está disponible en una forma más conveniente. Pero, por su propia naturaleza, las fuentes secundarias son más fáciles de conseguir que las primarias, ya que estas no solo proporcionan información digerida, sino que también sirven de clave bibliográfica de información en investigación, por lo que las fuentes primarias son las primeras en aparecer, a las que siguen las secundarias. 
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10 
         .cajon.bgr_8.px-5.py-4
           p.mb-0 Es difícil encontrar información de fuentes primarias directamente. Por lo tanto, hay que consultar en primer lugar las fuentes secundarias, que nos llevarán a las fuentes primarias específicas. 
@@ -263,24 +263,24 @@
     
     p.mb-5 Esta es la categoría más problemática de todas, sin embargo, rara vez se espera que la gente diferencie entre fuentes secundarias y terciarias. Por lo que existen materiales en los que la información de las fuentes secundarias ha sido digerida, reformateada y condensada para ponerla en una forma conveniente y fácil de leer, estas fuentes se alejan en el tiempo de las fuentes secundarias y de obras que indexan, organizan y recopilan las citas de las fuentes secundarias.
     
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10 
         .cajon.bgr_7.px-5.py-4
           p.mb-0 Las fuentes de información terciarias contienen información destilada y recopilada de fuentes primarias y secundarias. La función principal de las fuentes de información terciarias es ayudar al buscador de información a utilizar las fuentes de información primarias y secundarias. La mayoría de estas fuentes no contienen conocimientos sobre el tema . Ahora bien, debido al aumento de la literatura, las fuentes terciarias son cada vez más importantes ya que de los distintos tipos de fuentes, las terciarias son las últimas en aparecer y estas son:
     .row.mb-5
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-up-right")
         .bgr_10.p-4.h-100
           span.text-bold.etiqueta 1
           p.mb-0 Bibliografía.
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-up-left")
         .bgr_10.p-4.h-100
           span.text-bold.etiqueta 2
           p.mb-0 Directorios y anuarios.
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-up-right")
         .bgr_10.p-4.h-100
           span.text-bold.etiqueta 3
           p.mb-0 Guía de la literatura.
-      .col-12.col-md-3
+      .col-12.col-md-3(data-aos="fade-up-left")
         .bgr_10.p-4
           span.text-bold.etiqueta 4
           p.mb-0 Lista de investigaciones en curso.

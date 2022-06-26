@@ -8,9 +8,9 @@
       h1 Normativa y confidencialidad de la información
   
     .row.mb-5.justify-content-center
-      .col-12.col-md-5.bg_grad-04.mb-3.mb-md-0.d-flex.align-items-center
+      .col-12.col-md-5.bg_grad-04.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         p La autorización especial de datos personales sensibles se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares: es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles, tales como:  ciclo. 
-      .col-12.col-md-3
+      .col-12.col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
 
@@ -29,7 +29,7 @@
     p.mb-5 Algunos ejemplos comunes de información confidencial son, entre otros, los siguientes:
 
     .row.mb-5.justify-content-between
-      .col-12.col-md-7
+      .col-12.col-md-7(data-aos="fade-right")
         ul.lista-ul--color
           li.mb-2
             i.fas.fa-paper-plane
@@ -52,7 +52,7 @@
           li.mb-2
             i.fas.fa-paper-plane
             | Objetivos y previsiones no publicados marcados como confidenciales.
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-3.png', alt='Texto que describa la imagen')
     
@@ -65,7 +65,7 @@
           h5 Ley 1581. Elementos clave a tener en cuenta:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-up")
         .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -74,7 +74,7 @@
               p.mb-0 “Persona natural cuyos datos personales sean objeto de tratamiento”.
             .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-4.png')})`}")
             .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-4-1.png')})`}")
-      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-down")
         .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -83,7 +83,7 @@
               p.mb-0 “Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos”.
             .tarjeta-slide__img.d-none.d-md-flex(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-5.png')})`}")
             .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-5-1.png')})`}")
-      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0
+      .col-12.col-md-4.col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="flip-up")
         .tarjeta.tarjeta-slide.arriba.bgr_17(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -94,7 +94,7 @@
             .tarjeta-slide__img.d-flex.d-md-none(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6-1.png')})`}")
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .cajon.bgr_18.p-5
           .row  
             .col-12.col-md-4.mb-3.mb-md-0
@@ -114,17 +114,17 @@
       .h2 3.1 Base de datos
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-8.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-6.d-flex.align-items-center.bg_grad-05
+      .col-12.col-md-6.d-flex.align-items-center.bg_grad-05(data-aos="fade-left")
         p.mb-0 Esta se refiere a un conjunto de datos relacionados y a la forma en que están organizados. El acceso a estos suele ser proporcionado por un Sistema de Gestión de Bases de Datos (SGBD) que consiste en un conjunto integrado de programas informáticos que permite a los usuarios interactuar con una o varias bases de datos y proporciona acceso a todos los datos contenidos en la base de datos (aunque pueden existir restricciones que limiten el acceso a determinados datos ). 
     
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0
+      .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-left")
         p El SGBD ofrece diversas funciones que permiten: introducir, almacenar y recuperar grandes cantidades de información y proporciona formas de gestionar cómo se organiza esa información. Debido a la estrecha relación entre ambos, el término "base de datos" se utiliza a menudo de forma casual para referirse tanto a una base de datos como al SGBD utilizado para manipularla.
         p.mb-0 Fuera del mundo de la informática profesional, el término base de datos se suele utilizar para referirse a cualquier colección de datos relacionados (como una hoja de cálculo o un fichero), ya que los requisitos de tamaño y uso suelen requerir el uso de un sistema de gestión de bases de datos.
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen')
     
@@ -147,14 +147,14 @@
     p.mb-5 Las metodologías o técnicas aplicadas para una base de datos demandan realizar:
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in-up")
         .bgr_19.h-100
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
           div.p-4
             h2.text-center 01.
             p.mb-0 Un análisis o exploración de datos, esto tiene como objeto identificar patrones y la relación que hay entre ellos.
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="zoom-in-up")
         .bgr_20
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
@@ -163,10 +163,10 @@
             p.mb-0 Un análisis confirmatorio de datos que permite la aplicación de técnicas estadísticas para establecer si las hipótesis lanzadas son verdaderas o falsas.
 
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-12.png', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="fade-left")
         p El análisis de datos o <em>Big Data</em> es muy aplicado debido a los análisis cualitativos, ya que se realiza el análisis de datos numéricos, los cuales tienen variables que pueden ser cuantificables, pueden compararse y medirse a través de la estadística, es de anotar que el análisis cualitativo es de carácter interpretativo, es decir que se hace a través de interpretaciones de los resultados estadísticos, basados en la comprensión que se haga de los datos que no son numéricos. 
         p.mb-0 En el análisis de <em>Big Data</em>, se nos presentan los datos. No se puede diseñar un experimento que cumpla con un modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
 
@@ -187,7 +187,7 @@
           img(src='@/assets/curso/tema3/t3-13.png', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .cajon.bgr_21.p-5
           p.mb-0 Revisando la historia es desde 1995 cuando se comienza a tener esta excepción, no obstante, en el 2008 se crea la primera Ley de Habeas Data, la 1266, la cual tiene un carácter particular que solo aplica para la información financiera, por lo que los bancos usaban esta información para evaluar el peligro crediticio de una persona, como hábitos de pago, créditos tomados antes y sueldo o ingresos promedios.
 
@@ -222,13 +222,13 @@
     p.mb-5 Por otro lado, ninguna entidad puede hacer uso de esta información sin el permiso y autorización del dueño. La empresa o persona que sin la debida autorización realice uso de datos individuales recibirá una sanción y multa. Es por ello, que continuamente piden una aceptación una vez que se firma un contrato o se hace una compra.
 
     .row.justify-content-center
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="flip-up")
         a.anexo.mb-4.mb-lg-0(href="https://www.sic.gov.co/sites/default/files/files/2021/Guia%20CUIDA%20TU%20IDENTIDAD%20DIGITAL%20002.pdf" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p <b>Enlace web.</b> Superintendencia de Industria y Comercio. (2021) Cuida tu identidad personal.
-      .col-12.col-md-5
+      .col-12.col-md-5(data-aos="flip-up")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/embed/bvAH9ppBbbE?feature=oembed" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")

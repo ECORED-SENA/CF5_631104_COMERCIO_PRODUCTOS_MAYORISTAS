@@ -8,13 +8,13 @@
       h1 Solicitudes
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center
+      .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
         p La autorización especial de datos personales sensibles se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares: es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles, tales como:  ciclo. 
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema5/t5-1.png', alt='Texto que describa la imagen')
     
-    AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5.bgr_9(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-up-right")
       .row(titulo="Solicitudes informativas").p-4
         .col-md-8.mb-4.mb-md-0.align-items-center.p-4
           p A nivel general, son el tipo de solicitud más demandado (requerido) por los clientes. 

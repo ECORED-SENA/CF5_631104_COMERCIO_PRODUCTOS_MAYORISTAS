@@ -229,7 +229,30 @@
   &_30
     background-color: #BEFFF4
     border-radius: 10px
-  
+  &_31
+    background-color: #FFF4BF
+    border-radius: 10px
+    transition: transform .3s ease-in-out
+    &:hover
+      background-color: #FFEA81
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_32
+    background-color: #F6F6F6
+    border-radius: 10px
+    .slyder-a__btn--atrs
+      background-color: #4A2EFC
+      background-image: url("../assets/componentes/arrow1.svg") 
+    .slyder-a__btn--sigt
+      background-color: #4A2EFC
+      background-image: url("../assets/componentes/arrow1.svg")
+    .slyder-a__bullets__item--active
+      background-color: #4A2EFC !important
+      border-color: #4A2EFC 
+    .slyder-a__bullets__item
+      background-color: #D6D6D6
+  &_33
+    background-color: #DBFFFA 
 .bg_grad-01
   position: relative
   div
@@ -495,6 +518,28 @@
       left: -5px
       width: 48%
       height: 16%
+.bg_grad-13  
+  position: relative
+  div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 51px
+    right: 0
+    width: 29%
+    height: 21%
+    background: #D3F9F2
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and (max-width: 992px)
+      top: -11px
+    @media screen and (max-width: 420px)
+      top: 209px
+      left: -5px
+      width: 48%
+      height: 21%
 //POSICION EN PANTALLA//
 .pst
   position: absolute

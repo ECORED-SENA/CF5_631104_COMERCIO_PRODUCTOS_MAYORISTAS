@@ -46,7 +46,7 @@
     p.mb-5 Para entender mejor las formas de representar una medición se referencia el siguiente ejemplo: 
 
     .row.mb-5.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .row.bgr_23.p-4
           .col-12.col-md-2.mb-3.mb-md-0
             figure.d-flex.justify-content-center
@@ -69,10 +69,10 @@
         img.pst(src='@/assets/componentes/hojas.svg' alt='AvatarTop')
     
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0
+      .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-right")
         p Estos corresponden a investigaciones de mercado que realizan las empresas para medir el nivel de satisfacción de sus clientes con la marca, sus productos, sus procesos e incluso sus colaboradores. Usualmente, se realizan de forma periódica para poder comparar la evolución, por lo general se recomienda que se realice mínimo una vez al año y ojalá a través de una agencia de investigación de mercados para transmitir mayor transparencia y respaldo de las cifras.
         p.mb-0 Los estudios de satisfacción de clientes tienen por  fin revelar un índice de satisfacción, el cual como se mencionó previamente podrá ser un número expresado en frecuencia absoluta, que dependiendo de la metodología abordada podrá ser una cifra entre: 1 a 5, o entre 1 a 10; en términos porcentuales dicho valor podrá estar entre 0% y 100%, en este sentido, cuanto más alto sea el número implicará mayor nivel de satisfacción por parte de los clientes. 
-      .col-12.col-md-4 
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-5.png', alt='Texto que describa la imagen')   
 
@@ -96,7 +96,7 @@
         img.pst(src='@/assets/componentes/hojas.svg' alt='AvatarTop')
     
     .row.justify-content-center
-      .col-12.col-md-10
+      .col-12.col-md-10(data-aos="flip-up")
         .cajon.bgr_21.p-5
           p.mb-0 La recomendación es una variable de alto interés dentro de la experiencia al cliente y en general dentro del mercadeo y las ventas, dado que cuando un cliente lo hace, significa que no solo está satisfecho con ella, sino que, además, es un cliente prescriptor; es decir, aquel  que genera una voz a voz positivo para la marca. 
     
