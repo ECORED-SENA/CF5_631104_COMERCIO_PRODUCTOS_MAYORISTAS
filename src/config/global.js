@@ -213,32 +213,107 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '3.2 Manejo de datos personales',
+      referencia:
+        'Superintendencia de Industria y Comercio. (2021). Cuida tu identidad digital y protege tus datos personales.',
+      tipo: 'Artículo',
+      descarga: '/downloads/cuida_identidad_personal.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '3.2 Manejo de datos personales',
+      referencia:
+        'Escuela de Privacidad. (2020). Legislación en protección de datos personales en Colombia.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bvAH9ppBbbE',
+    },
+    {
+      tema: '6. Posventa ',
+      referencia: 'Canal grupojadisa. (2012). Posventa Mercedes-Ben',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=yqyttSMc7ac',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Análisis de datos',
+      significado:
+        'proceso de recopilación, modelización y análisis de datos para extraer información que sirva de apoyo a la toma de decisiones.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Base de datos',
+      significado:
+        'almacén de datos diseñado de forma organizada, que facilita la búsqueda de la información que se necesita.',
+    },
+    {
+      termino: '<em>Buyer</em> persona',
+      significado:
+        'perfil de los clientes ideales que buscan y a quien van dirigidas las empresas.',
+    },
+    {
+      termino: 'Conflicto',
+      significado:
+        'situación en la que dos o más personas con intereses diferentes entran en confrontación u oposición.',
+    },
+    {
+      termino: 'CRM',
+      significado:
+        '(en inglés <em>Customer Relationship Management</em>, o Gestión de las relaciones con clientes) es una solución de gestión de las relaciones con clientes, orientada normalmente a gestionar tres áreas básicas: la gestión comercial, el marketing y el servicio postventa o de atención al cliente.',
+    },
+    {
+      termino: 'Experiencia al cliente',
+      significado:
+        'relación de una empresa con sus clientes en todos los aspectos del recorrido de compra; en resumen, es la suma total de todas las interacciones que un cliente tiene con la marca.',
+    },
+    {
+      termino: 'Garantía',
+      significado:
+        'mecanismo para asegurar el cumplimiento de obligaciones y proteger los derechos de alguna de las partes en relaciones comerciales o jurídicas.',
+    },
+    {
+      termino: 'Fidelización',
+      significado:
+        'concepto de <em>marketing</em> que designa la lealtad de un cliente a una marca, producto o servicio concretos.',
+    },
+    {
+      termino: 'Medición',
+      significado:
+        'proceso básico para comparar unidad de medida entre sí, a partir de una serie de escalas que sirven como referencia y arroja un resultado final.',
+    },
+    {
+      termino: 'Posventa',
+      significado:
+        'parte del servicio al cliente reuniendo todas las estrategias pensadas para mejorar la experiencia después de la compra y manteniendo una relación duradera con los clientes',
+    },
+    {
+      termino: 'Solicitud',
+      significado:
+        'es cualquier requerimiento que llega a la empresa de manera formal.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2013). Decreto 1377 de 2013. Por el cual se reglamenta parcialmente la Ley 1581 de 2012',
+      link:
+        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
+    },
+    {
+      referencia:
+        'Portafolio. (s. f.). Servicio posventa, tan importante como las características de bienes o servicios ofrecidos al cliente.',
+      link:
+        'https://www.portafolio.co/economia/finanzas/servicio-posventa-importante-caracteristicas-bienes-servicios-ofrecidos-cliente-243638',
+    },
+    {
+      referencia:
+        'Samsing, C. (2021). Principales indicadores de servicio posventa.',
+      link:
+        'https://blog.nubox.com/empresas/indicadores-de-servicio-post-venta',
+    },
+    {
+      referencia:
+        'UIAF. (2008). Ley Estatutaria 1266 de 2008. Por la cual se dictan las disposiciones generales de Habeas Data.',
+      link:
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema/leyes/ley_estatutaria_1266_2008',
     },
   ],
   creditos: {
@@ -256,6 +331,42 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Nelly Parra Guarín',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de la Industria, la empresa y los Servicios - Regional Huila',
+      },
+      {
+        nombre: 'Diana Carolina Jaramillo Rojas',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios - Regional Cauca',
+      },
+      {
+        nombre: 'Esperanza Cardona Grisales',
+        cargo: 'Experta temática',
+        centro: 'Centro de Comercio y Servicios - Regional Cauca',
+      },
+      {
+        nombre: 'Carlos Andrés Otero Cano',
+        cargo: 'Experto temático',
+        centro: 'Centro de Comercio y Servicios - Regional Cauca',
+      },
+      {
+        nombre: 'Ana Vela Rodríguez Velásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -265,41 +376,78 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Andrés Díaz Pinto',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
