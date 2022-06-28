@@ -412,7 +412,7 @@ export default {
       },
       {
         nombre: 'Miguel Guerrero Gutiérrez',
-        cargo: 'Producción audiovisual',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
