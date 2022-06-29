@@ -35,13 +35,13 @@
         figure
           img(src='@/assets/curso/tema4/t4-2.png', alt='Texto que describa la imagen')  
         div.p-4.bgr_11
-          p (cantidad de veces que se repite un suceso al realizar un número).
+          p (Cantidad de veces que se repite un suceso al realizar un número).
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-left")
         p.text-bold.mb-0.etiqueta_2.text-center.p-3 Frecuencias relativas
         figure
           img(src='@/assets/curso/tema4/t4-2.png', alt='Texto que describa la imagen')  
         div.p-4.bgr_22
-          p (porcentualmente).
+          p (Porcentualmente).
     
     p.mb-5 Para entender mejor las formas de representar una medición se referencia el siguiente ejemplo: 
 
@@ -111,7 +111,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
  
-    p.mb-5 Ahora bien, en la siguiente videoclase podrá reforzar su aprendizaje con los conceptos sobre las mediciones que se pueden hacer en el proceso comercial: 
+    p.mb-5 Ahora bien, en la siguiente video clase podrá reforzar su aprendizaje con los conceptos sobre las mediciones que se pueden hacer en el proceso comercial: 
 
     figure.mb-5(data-aos="zoom-in-up")
       .video

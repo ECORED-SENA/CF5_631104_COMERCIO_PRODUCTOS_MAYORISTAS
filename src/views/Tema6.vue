@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero.colr_1
         span 6
-      h1 Postventa
+      h1 Posventa
     
     .row.mb-5.justify-content-center
       .col-12.col-md-6.d-flex.align-items-center.bg_grad-09.mb-3.mb-md-0(data-aos="fade-right")
@@ -121,9 +121,9 @@
     separador
     
     #t_6_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      .h2 6.2 Etapas
+      .h2 6.2 Técnicas
 
-    p.mb-5 Dentro del servicio posventa existe una serie de técnicas a seguir para lograr tener éxito en la empresa , estas son la diferencia entre un excelente servicio posventa y uno que no se enfoca en la razón de ser de las empresas que son los clientes, estas técnicas son las siguientes:
+    p.mb-5 Dentro del servicio posventa existe una serie de técnicas a seguir para lograr tener éxito en la empresa, estas son la diferencia entre un excelente servicio posventa y uno que no se enfoca en la razón de ser de las empresas que son los clientes, estas técnicas son las siguientes:
 
     TabsA.color-acento-botones.modif.mb-5(data-aos="zoom-in-down")
       .tarjeta.modif_1.p-4(titulo="Creación de un canal específico")
@@ -138,7 +138,7 @@
         .row.p-4  
           .col-12.col-lg-6
             h4 Mantener contacto con los clientes
-            p Es de vital importancia que la comunicación empresa-cliente no se corte, por ello es necesario sostener una conversación con los clientes activa, por medio de estrategias como e-mail marketing y CRM. 
+            p Es de vital importancia que la comunicación empresa-cliente no se corte, por ello es necesario sostener una conversación con los clientes activa, por medio de estrategias como <em>e-mail marketing</em> y CRM. 
             p.mb-0 En esta técnica vale la pena resaltar que estos espacios de comunicación deben de ser aprovechados, ya sea con encuestas de satisfacción o desempeño, tips de uso, cuidado, noticias de nuevos lanzamientos, o sencillamente de agradecimiento por su lealtad con la marca o compra de productos. Como factor clave, la constancia en esta relación.
           .col-12.col-lg-6
             figure
@@ -175,7 +175,7 @@
     separador
 
     #t_6_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      .h2 6.3 Etapas
+      .h2 6.3 Proceso y procedimiento
 
     .row.mb-5.justify-content-center
       .col-12.col-md-6.bg_grad-08.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")

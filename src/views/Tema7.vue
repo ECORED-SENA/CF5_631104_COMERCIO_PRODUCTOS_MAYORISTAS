@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero.colr_1
         span 7
-      h1 Técnicas y resolución de conflictos
+      h1 Técnicas y resolución de conflictos comerciales
 
     p Un conflicto comercial es la confrontación que existe entre empresas, empresas con proveedores y también empresas con los clientes, por desacuerdos que se generan dentro de una sociedad comercial. 
     p.mb-5 Los conflictos comerciales se solucionan mediante un arbitraje, para solucionarlos se debe buscar el lugar y momento adecuado, crear un buen ambiente, aceptar que existe un problema a solucionar, iniciar con algo positivo, ser concreto frente a lo que se quiere decir del conflicto, es decir, qué es lo que no le gusta o por qué está preocupado y presentar las alternativas de solución que se le sean posibles.
@@ -17,7 +17,7 @@
       .col-12.col-md-8.d-flex.align-items-center.bg_grad-13(data-aos="fade-left")  
         div
           p.mb-0.text-bold La gran pregunta aquí es… ¿cómo se solucionan los conflictos comerciales?
-          p Las formas preferidas por los comerciantes para solucionar los conflictos , son la mediación y el arbitraje, estas muchas veces evitan que el conflicto llegue a demandas judiciales.
+          p Las formas preferidas por los comerciantes para solucionar los conflictos, son la mediación y el arbitraje, estas muchas veces evitan que el conflicto llegue a demandas judiciales.
           p.mb-0 Existen varias técnicas para resolver los conflictos, estas son, la negociación, la mediación, el arbitraje y la conciliación, las cuales se describen a continuación:
     
     .row.mb-5
@@ -38,7 +38,7 @@
           figure.mb-3.d-flex.justify-content-center 
             img.img90(src='@/assets/curso/tema7/t7-4.svg' alt='AvatarTop')
           p.text-bold.mb-0 El arbitraje 
-          p.mb-0 Es un proceso cuasijudicial que involucra a las partes con un árbitro que es escogido por estas, su decisión se constituye como un fallo con efectos jurídicos y de obligatorio cumplimiento.
+          p.mb-0 Es un proceso cuasi judicial que involucra a las partes con un árbitro que es escogido por estas, su decisión se constituye como un fallo con efectos jurídicos y de obligatorio cumplimiento.
       .col-12.col-md-3.col-lg-3.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_31.p-4.h-100
           figure.mb-3.d-flex.justify-content-center 
@@ -68,9 +68,8 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0.text-bold Pero, ¿quién soluciona los conflictos de los comerciantes?
+            br
             p.mb-0 Por lo general los conflictos comerciales se solucionan en la Cámara de Comercio, esta entidad facilita la solución del conflicto comercial de forma ágil y sin necesidad de llegar a estrados judiciales. También es muy importante resolver los conflictos con los clientes, ya que ayuda a la reputación de la empresa, demuestra que el cliente le interesa y cuida sus finanzas porque le evita tener que pagar abogados para solucionarlos.
-    
-    p Por lo general los conflictos comerciales se solucionan en la Cámara de Comercio, esta entidad facilita la solución del conflicto comercial de forma ágil y sin necesidad de llegar a estrados judiciales. También es muy importante resolver los conflictos con los clientes, ya que ayuda a la reputación de la empresa, demuestra que el cliente le interesa y cuida sus finanzas porque le evita tener que pagar abogados para solucionarlos.
     
     separador
 
@@ -98,7 +97,8 @@
  
     p.mb-5 El cumplimiento de garantías debe ser prioridad para toda la empresa, no solamente para los vendedores que en últimas son los que las han ofrecido, sino que debe existir una conducta de cumplimiento alrededor del cliente, esto lo han desarrollado muy pocas empresas a cabalidad, demostrando que las que lo hacen, han ganado posiciones competitivas superiores; por lo anterior, le invito a revisar el siguiente recurso sobre la clasificación de los niveles de servicio, que son tres, a saber:
 
-    p.text-bold.mb-5 Niveles de cumplimiento. ¿Cómo se clasifican los niveles de servicio?
+    p.text-bold.mb-3 Niveles de cumplimiento. 
+    P.text-bold.mb-5 ¿Cómo se clasifican los niveles de servicio?
 
     .row.mb-5
       .col-12.col-md-4(data-aos="flip-up")
@@ -207,16 +207,6 @@
               p Selecciona un tipo de posventa si se pretende lograr el informe para un tipo de posventa en particular.
 
     p El sistema genera el reporte de productos posventa en el cual detalla producto, tipo de posventa y número de productos sujetos a la posventa, también especifica el detalle, el número de serie, el lote, vencimiento y las observaciones del caso.
-
-
-
- 
-
-
- 
-
-
- 
 
 
 </template>

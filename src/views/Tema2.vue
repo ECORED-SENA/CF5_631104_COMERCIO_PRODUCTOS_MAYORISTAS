@@ -24,7 +24,7 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-7.bg_grad-03.mb-3.mb-md-0(data-aos="fade-up-right")
-        p El procesamiento de datos es de g ran importancia para que las organizaciones creen mejores estrategias de negocio y aumenten su ventaja competitiva. Al convertir los datos en un formato legible, como: gráficos, tablas y documentos, los empleados de toda la organización pueden entenderlos y utilizarlos para el beneficio de la empresa.
+        p El procesamiento de datos es de gran importancia para que las organizaciones creen mejores estrategias de negocio y aumenten su ventaja competitiva. Al convertir los datos en un formato legible, como: gráficos, tablas y documentos, los empleados de toda la organización pueden entenderlos y utilizarlos para el beneficio de la empresa.
         p.mb-0 Por otro lado, el ciclo de procesamiento de datos consiste en una serie de pasos en los que los datos en bruto (entrada) se introducen en un proceso para producir información procesable (salida). Cada paso se realiza en un orden determinado, pero todo se repite de forma cíclica. El resultado del primer ciclo de procesamiento de datos puede almacenarse y utilizarse como entrada para el siguiente ciclo. 
       .col-12.col-md-3(data-aos="fade-up-left")
         figure
@@ -184,7 +184,7 @@
             img(src='@/assets/curso/tema2/t2-19.png', alt='Texto que describa la imagen')
       .row(titulo="Encuesta").p-4
         .col-md-8.mb-4.mb-md-0.align-items-center.p-4
-          p numérica de las tendencias, actitudes u opiniones de una población mediante el estudio de una muestra de la misma.
+          p Es un diseño que proporciona un plan para efectuar una descripción numérica de las tendencias, actitudes u opiniones de una población mediante el estudio de una muestra de la misma.
           p Es decir, en la literatura clásica sobre metodología de la investigación, la encuesta es considerada como una técnica cuantitativa para recoger, a través de preguntas, datos de un grupo seleccionado de personas; sin embargo, más recientemente algunos autores consideran que también puede ser utilizada para recoger datos cualitativos o mixtos. 
           p.mb-0 En realidad, las encuestas son diseños no experimentales que la mayoría de las veces son transversales, aunque si se repiten periódicamente desarrollan un formato longitudinal y consisten en preguntar a los individuos sobre cuestiones específicas y obtener sus respuestas.
         .col-md-4
@@ -267,7 +267,7 @@
           .col-md-6
             p Las herramientas de elaboración de informes o análisis documental, permiten extraer y presentar los datos en gráficos, tablas y otras visualizaciones para que los usuarios puedan encontrar información útil. Los datos para la elaboración de informes pueden proceder de documentos de Organizaciones No Gubernamentales (ONG), periódicos, artículos de sitios web.
             p.mb-0.text-bold Informes de ONG
-            p Los informes de las ONG contienen datos exhaustivos y completos sobre las actividades             p realizadas por la ONG, que abarca ámbitos como los negocios y los Derechos Humanos. 
+            p Los informes de las ONG contienen datos exhaustivos y completos sobre las actividades realizadas por la ONG, que abarca ámbitos como los negocios y los Derechos Humanos. 
             p.mb-0.text-bold Periódicos
             p Los datos de los periódicos son relativamente fáciles de recopilar y a veces son la única fuente disponible de forma continua de datos sobre acontecimientos, aunque existe un problema de sesgo en los datos.
             p.mb-0.text-bold Artículos de sitios web

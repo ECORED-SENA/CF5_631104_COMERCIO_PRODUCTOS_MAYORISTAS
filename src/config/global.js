@@ -120,7 +120,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Postventa',
+        titulo: 'Posventa',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -153,7 +153,7 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Técnicas y resolución de conflictos',
+        titulo: 'Técnicas y resolución de conflictos comerciales',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -257,7 +257,7 @@ export default {
     {
       termino: 'CRM',
       significado:
-        '(en inglés <em>Customer Relationship Management</em>, o Gestión de las relaciones con clientes) es una solución de gestión de las relaciones con clientes, orientada normalmente a gestionar tres áreas básicas: la gestión comercial, el marketing y el servicio postventa o de atención al cliente.',
+        '(en inglés <em>Customer Relationship Management</em>, o Gestión de las relaciones con clientes) es una solución de gestión de las relaciones con clientes, orientada normalmente a gestionar tres áreas básicas: la gestión comercial, el <em>marketing</em> y el servicio postventa o de atención al cliente.',
     },
     {
       termino: 'Experiencia al cliente',
@@ -441,7 +441,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yuli Marcela Gómez Tarazona ',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

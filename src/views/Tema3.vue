@@ -9,7 +9,7 @@
   
     .row.mb-5.justify-content-center
       .col-12.col-md-5.bg_grad-04.mb-3.mb-md-0.d-flex.align-items-center(data-aos="fade-right")
-        p La autorización especial de datos personales sensibles se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares: es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles, tales como:  ciclo. 
+        p La autorización especial de datos personales sensibles se refiere a la implementación y uso de los diferentes medios disponibles para la obtención de la autorización de información de los titulares: es decir, el manejo de los datos sensibles; no obstante, la Ley 1581 de 2012, los decretos y normas reglamentarias, faculta el manejo de los datos, por tanto, no se tiene obligatoriedad de otorgar autorización para el tratamiento de los datos sensibles, tales como:  
       .col-12.col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
@@ -118,7 +118,7 @@
         figure
           img(src='@/assets/curso/tema3/t3-8.svg', alt='Texto que describa la imagen')
       .col-12.col-md-6.d-flex.align-items-center.bg_grad-05(data-aos="fade-left")
-        p.mb-0 Esta se refiere a un conjunto de datos relacionados y a la forma en que están organizados. El acceso a estos suele ser proporcionado por un Sistema de Gestión de Bases de Datos (SGBD) que consiste en un conjunto integrado de programas informáticos que permite a los usuarios interactuar con una o varias bases de datos y proporciona acceso a todos los datos contenidos en la base de datos (aunque pueden existir restricciones que limiten el acceso a determinados datos ). 
+        p.mb-0 Esta se refiere a un conjunto de datos relacionados y a la forma en que están organizados. El acceso a estos suele ser proporcionado por un Sistema de Gestión de Bases de Datos (SGBD) que consiste en un conjunto integrado de programas informáticos que permite a los usuarios interactuar con una o varias bases de datos y proporciona acceso a todos los datos contenidos en la base de datos (aunque pueden existir restricciones que limiten el acceso a determinados datos). 
     
     .row.mb-5
       .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-left")
@@ -128,7 +128,7 @@
         figure
           img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen')
     
-    p.mb-5 Aquí es de vital importancia aclarar que una gran herramienta que apoya la analítica de datos son los diferentes softwares especializados o herramientas ofimáticas que se encuentran en el mercado, dado que los datos que generalmente se procesan en analítica de datos o el big data son semiestructurados o estructurados y tienen diferentes orígenes, por lo que hoy por hoy las empresas deben hacer uso de sistemas que les permitan manejar grandes cantidades de información con el objetivo de tomar decisiones a tiempo y estar a la vanguardia en un mundo totalmente globalizado, lo anterior lleva a que estás tenga grandes beneficios, tales como:
+    p.mb-5 Aquí es de vital importancia aclarar que una gran herramienta que apoya la analítica de datos son los diferentes <em>softwares</em> especializados o herramientas ofimáticas que se encuentran en el mercado, dado que los datos que generalmente se procesan en analítica de datos o el <em>big data</em> son semiestructurados o estructurados y tienen diferentes orígenes, por lo que hoy por hoy las empresas deben hacer uso de sistemas que les permitan manejar grandes cantidades de información con el objetivo de tomar decisiones a tiempo y estar a la vanguardia en un mundo totalmente globalizado, lo anterior lleva a que estás tenga grandes beneficios, tales como:
 
     ul.lista-ul--color.mb-3
       li.mb-2
@@ -152,14 +152,14 @@
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-10.svg', alt='Texto que describa la imagen')
           div.p-4
-            h2.text-center 01.
+            h2.text-center 01
             p.mb-0 Un análisis o exploración de datos, esto tiene como objeto identificar patrones y la relación que hay entre ellos.
       .col-12.col-md-4(data-aos="zoom-in-up")
         .bgr_20
           figure.p-4.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-11.svg', alt='Texto que describa la imagen')
           div.p-4
-            h2.text-center 02.
+            h2.text-center 02
             p.mb-0 Un análisis confirmatorio de datos que permite la aplicación de técnicas estadísticas para establecer si las hipótesis lanzadas son verdaderas o falsas.
 
     .row.mb-5
@@ -171,7 +171,7 @@
         p.mb-0 En el análisis de <em>Big Data</em>, se nos presentan los datos. No se puede diseñar un experimento que cumpla con un modelo estadístico favorito. En las aplicaciones de analítica a gran escala, se necesita una gran cantidad de trabajo, normalmente el 80% del esfuerzo solo para limpiar los datos, de modo que puedan ser utilizados por un modelo de aprendizaje automático.
 
     p No hay una metodología única a seguir en las aplicaciones reales a gran escala. Normalmente, una vez definido el problema de negocio, se necesita una etapa de investigación para diseñar la metodología a utilizar. Sin embargo, es relevante mencionar unas pautas generales que se aplican a casi todos los problemas.
-    p Una de las tareas más importantes en el análisis de Big Data es el modelado estadístico, es decir, los problemas de clasificación o regresión supervisados y no supervisados. Una vez que los datos se han limpiado y pre-procesado, ya están disponibles para el modelado, se debe tener cuidado en la evaluación de diferentes modelos con métricas de pérdida razonables y luego, una vez que el modelo se implementa, se debe informar de la evaluación y los resultados. Un error común en la modelización predictiva es limitarse a implementar el modelo y no medir nunca su rendimiento.
+    p Una de las tareas más importantes en el análisis de <em>Big Data</em> es el modelado estadístico, es decir, los problemas de clasificación o regresión supervisados y no supervisados. Una vez que los datos se han limpiado y pre-procesado, ya están disponibles para el modelado, se debe tener cuidado en la evaluación de diferentes modelos con métricas de pérdida razonables y luego, una vez que el modelo se implementa, se debe informar de la evaluación y los resultados. Un error común en la modelización predictiva es limitarse a implementar el modelo y no medir nunca su rendimiento.
 
     separador
 

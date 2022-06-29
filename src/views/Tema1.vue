@@ -62,7 +62,7 @@
                   | Textual vs. audiovisual/multimedia.
                 li.mb-2
                   i.fas.fa-paper-plane.colr_3
-                  | Papel vs. electrónic0.
+                  | Papel vs. electrónico.
       .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-down")
         .row  
           .col-12
@@ -266,7 +266,7 @@
     .row.mb-5.justify-content-center(data-aos="flip-up")
       .col-12.col-md-10 
         .cajon.bgr_7.px-5.py-4
-          p.mb-0 Las fuentes de información terciarias contienen información destilada y recopilada de fuentes primarias y secundarias. La función principal de las fuentes de información terciarias es ayudar al buscador de información a utilizar las fuentes de información primarias y secundarias. La mayoría de estas fuentes no contienen conocimientos sobre el tema . Ahora bien, debido al aumento de la literatura, las fuentes terciarias son cada vez más importantes ya que de los distintos tipos de fuentes, las terciarias son las últimas en aparecer y estas son:
+          p.mb-0 Las fuentes de información terciarias contienen información destilada y recopilada de fuentes primarias y secundarias. La función principal de las fuentes de información terciarias es ayudar al buscador de información a utilizar las fuentes de información primarias y secundarias. La mayoría de estas fuentes no contienen conocimientos sobre el tema. Ahora bien, debido al aumento de la literatura, las fuentes terciarias son cada vez más importantes ya que de los distintos tipos de fuentes, las terciarias son las últimas en aparecer y estas son:
     .row.mb-5
       .col-12.col-md-3.mb-3.mb-md-0(data-aos="fade-up-right")
         .bgr_10.p-4.h-100
