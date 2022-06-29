@@ -61,9 +61,16 @@
           .col-md-4.p-4
             h4.mb-5 Soporte
             p Hace referencia a las solicitudes técnicas, tienen diferentes alcances:
-            p.mb-0 1. Cuando los clientes tienen desconocimiento o dudas sobre el manejo de los productos o servicios de la empresa.
-            p.mb-0 2. Cuando tienen dificultad para acceder a alguno de los canales digitales de la compañía.
-            p 3. Cuando tienen problemas con sus servicios y requieren de la empresa para validar remotamente o en sitio su correcto funcionamiento.
+            ol.lista-ol
+              li 
+                span.text-bold 1. 
+                | Cuando los clientes tienen desconocimiento o dudas sobre el manejo de los productos o servicios de la empresa.
+              li 
+                span.text-bold 2. 
+                | Cuando tienen dificultad para acceder a alguno de los canales digitales de la compañía.
+              li 
+                span.text-bold 3. 
+                | Cuando tienen problemas con sus servicios y requieren de la empresa para validar remotamente o en sitio su correcto funcionamiento.
           .col-md-8.p-4
             figure
               img(src='@/assets/curso/tema5/t5-7.png', alt='Texto que describa la imagen')
