@@ -109,7 +109,7 @@
 
     figure.mb-5(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-Et6zWzTtzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
  
     p.mb-5 Ahora bien, en la siguiente video clase podrá reforzar su aprendizaje con los conceptos sobre las mediciones que se pueden hacer en el proceso comercial: 
 
