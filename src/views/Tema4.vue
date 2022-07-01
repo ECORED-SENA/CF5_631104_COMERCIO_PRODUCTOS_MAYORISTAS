@@ -9,7 +9,7 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
-        p La palabra medición viene del verbo medir que, a su vez viene de la palabra latina metriri que significa “comparar un resultado o cantidad con una unidad de medida previa”, por lo que son muy importantes, ya que posibilitan conocer cómo están funcionando hechos o fenómenos de interés. Las mediciones son relevantes específicamente en una empresa porque permiten: 
+        p La palabra medición viene del verbo medir que, a su vez viene de la palabra latina <em>metriri</em> que significa “comparar un resultado o cantidad con una unidad de medida previa”, por lo que son muy importantes, ya que posibilitan conocer cómo están funcionando hechos o fenómenos de interés. Las mediciones son relevantes específicamente en una empresa porque permiten: 
         ul.lista-ul--color.mb-3
           li.mb-2
             i.fas.fa-paper-plane

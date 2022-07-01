@@ -39,13 +39,13 @@
             | Listas y datos de clientes.
           li.mb-2
             i.fas.fa-paper-plane
-            | Propiedad intelectual. como patentes. fórmulas y nuevas tecnologías.
+            | Propiedad intelectual como patentes, fórmulas y nuevas tecnologías.
           li.mb-2
             i.fas.fa-paper-plane
             | Datos de partes externas.
           li.mb-2
             i.fas.fa-paper-plane
-            | Información sobre el negocio y los productos. como los precios. el marketing y otras estrategias.
+            span Información sobre el negocio y los productos como los precios, el <em>marketing</em> y otras estrategias.
           li.mb-2
             i.fas.fa-paper-plane
             | Documentos marcados como confidenciales.

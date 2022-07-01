@@ -33,7 +33,7 @@
               ul.lista-ul--color
                 li.mb-2
                   i.fas.fa-check.colr_2
-                  | Organizaciones, etc
+                  | Organizaciones, etc.
       .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-1.png', alt='Texto que describa la imagen')
